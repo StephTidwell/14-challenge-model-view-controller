@@ -93,7 +93,7 @@
   header {
     background-color: rgb(14, 4, 18);
     border-bottom: 1px solid #ccc;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
@@ -137,7 +137,7 @@
   }
   
   .post {
-    background-color: lightskyblue;
+    background-color: rgb(1, 5, 7);
     margin-bottom: 2%;
     line-height: 150%;
     border-color: black;
