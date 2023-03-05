@@ -1,0 +1,29 @@
+{
+  "name": "14-challenge-model-view-controller",
+  "version": "1.0.0",
+  "description": "This is a CMS-style blog site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephTidwell/14-challenge-model-view-controller.git"
+  },
+  "author": "Steph Tidwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephTidwell/14-challenge-model-view-controller/issues"
+  },
+  "homepage": "https://github.com/StephTidwell/14-challenge-model-view-controller#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.1",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.0"
+  }
+}
