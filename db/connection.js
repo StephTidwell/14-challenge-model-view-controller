@@ -19,6 +19,7 @@ if (process.env.JAWSDB_URL) {
       dialect: "mysql",
       dialectOptions: {
         socketPath: "/tmp/mysql.sock",
+        //not working when doploying to heroku
       },
       // port: 3306,
       user: "root",
