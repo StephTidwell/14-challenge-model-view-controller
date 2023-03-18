@@ -15,7 +15,7 @@ if (process.env.JAWSDB_URL) {
     // process.env.DB_PORT,
     // process.env.DB_HOST,
     {
-      host: "localhost",
+      host: "127.0.0.1",
       dialect: "mysql",
       dialectOptions: {
         socketPath: "/private/tmp/mysql.sock",
